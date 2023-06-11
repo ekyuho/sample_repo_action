@@ -25,5 +25,5 @@ jobs:
         python-version: "3.10"
     - name: run
       run: |
-        echo ${{ secrets.MY_SECRET}}
+        echo xxx ${{ secrets.MY_SECRET}}
         python .github/workflows/myaction.py
